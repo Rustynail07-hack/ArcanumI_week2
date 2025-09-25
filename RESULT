@@ -1,0 +1,14 @@
+=== Windows Integrity Level Extraction ===
+Our PID: 1234
+Process handle obtained: 0x00000048
+Token handle obtained: 0x0000007C
+Step 4: Getting required buffer size...
+First call success: False
+Return length: 32
+First call error: 122
+Step 5: Creating buffer of size 32...
+Second call success: True
+GetTokenInformation succeeded! Attempting to parse...
+Raw Integrity Level: 8192
+Integrity Level: High
+Done.
